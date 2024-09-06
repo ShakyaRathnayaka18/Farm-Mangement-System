@@ -84,5 +84,6 @@ To run a local development server you may run the following command. This will s
 Enter these login info to log into the aadmin panel .
 
 Name : Admin
+
 Password : Admin123
 
