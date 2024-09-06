@@ -79,3 +79,10 @@ You can also run the following command that will continue running in your termin
 To run a local development server you may run the following command. This will start a development server at **http://localhost:8000**.
 
 `php artisan serve`
+
+## Login Credentials
+Enter these login info to log into the aadmin panel .
+
+Name : Admin
+Password : Admin123
+
