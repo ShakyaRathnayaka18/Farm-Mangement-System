@@ -5,7 +5,7 @@ Find a location on your computer where you want to store the project. A director
 
 Launch a bash console there and clone the project.
 
-`git clone https://github.com/organization/project.git`
+`git clone https://github.com/ShakyaRathnayaka18/Farm-Mangement-System.git`
 
 ## 2. cd into the project
 You will need to be inside the project directory that was just created, so cd into it.
