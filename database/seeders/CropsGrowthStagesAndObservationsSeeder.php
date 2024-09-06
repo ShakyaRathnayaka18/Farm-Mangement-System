@@ -18,7 +18,7 @@ class CropsGrowthStagesAndObservationsSeeder extends Seeder
         DB::table('crops_growth_stages_and_observations')->insert([
             [
                 'crop_id' => 1, // Assuming Tomato is the first entry in crops table
-                'stage_name' => 'Germination',
+                'stage_name' => 'Mature',
                 'recommendation' => 'Ensure consistent moisture.',
                 'start_date' => '2024-01-16',
                 'end_date' => '2024-01-30',
@@ -38,7 +38,7 @@ class CropsGrowthStagesAndObservationsSeeder extends Seeder
             ],
             [
                 'crop_id' => 2, // Assuming Rice is the second entry in crops table
-                'stage_name' => 'Germination',
+                'stage_name' => 'Seedling',
                 'recommendation' => 'Flood the fields.',
                 'start_date' => '2024-03-02',
                 'end_date' => '2024-03-15',
@@ -48,7 +48,7 @@ class CropsGrowthStagesAndObservationsSeeder extends Seeder
             ],
             [
                 'crop_id' => 3, // Corn
-                'stage_name' => 'Growth',
+                'stage_name' => 'Vegetative',
                 'recommendation' => 'Apply nitrogen fertilizer.',
                 'start_date' => '2024-05-02',
                 'end_date' => '2024-06-01',

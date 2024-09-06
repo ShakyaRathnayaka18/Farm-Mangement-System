@@ -37,7 +37,8 @@ Laravel’s command line tools thankfully make it easy to generate this. Run thi
 `php artisan key:generate`
 
 ## 7. Create an empty database for the application
-Create an empty database for your project using the database tools you prefer (phpmyadmin, datagrip, or any other mysql client).
+Create an empty database for your project  using the database tools you prefer (phpmyadmin, datagrip, or any other mysql client).
+Ex:-farm_mgt_system
 
 ## 8. In the .env file, add database information to allow Laravel to connect to the database
 You will want to allow Laravel to connect to the database that you just created in the previous step. To do this, you must add the connection credentials in the .env file and Laravel will handle the connection from there.
@@ -53,10 +54,15 @@ Once your credentials are in the .env file, now you can migrate your database. T
 
 `php artisan migrate`
 
-## 10. Seed the database
+## 11. Seed the database
 Once you migrate your database seed it .
+
 `php artisan db:seed`
 
+## 11. Add the api key 
+Add this api key to .env .
+
+OPENWEATHER_API_KEY=a415a41980d534f8db84c86f470d743e
 
 # During Development
 
