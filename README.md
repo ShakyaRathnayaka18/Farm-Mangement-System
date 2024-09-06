@@ -83,7 +83,7 @@ To run a local development server you may run the following command. This will s
 ## Login Credentials
 Enter these login info to log into the aadmin panel .
 
-Name : Admin
+Name : admin@agrosync.com
 
 Password : Admin123
 
